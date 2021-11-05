@@ -1,0 +1,261 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Lamp LA9
+U 1 1 61781D58
+P 3200 4600
+F 0 "LA9" H 3328 4646 50  0000 L CNN
+F 1 "Lamp" H 3328 4555 50  0000 L CNN
+F 2 "Library:GY6.35" V 3200 4700 50  0001 C CNN
+F 3 "~" V 3200 4700 50  0001 C CNN
+	1    3200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA10
+U 1 1 61783E24
+P 3600 4600
+F 0 "LA10" H 3728 4646 50  0000 L CNN
+F 1 "Lamp" H 3728 4555 50  0000 L CNN
+F 2 "Library:GY6.35" V 3600 4700 50  0001 C CNN
+F 3 "~" V 3600 4700 50  0001 C CNN
+	1    3600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA5
+U 1 1 61789478
+P 3200 4000
+F 0 "LA5" H 3328 4046 50  0000 L CNN
+F 1 "Lamp" H 3328 3955 50  0000 L CNN
+F 2 "Library:GY6.35" V 3200 4100 50  0001 C CNN
+F 3 "~" V 3200 4100 50  0001 C CNN
+	1    3200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA6
+U 1 1 6178947E
+P 3600 4000
+F 0 "LA6" H 3728 4046 50  0000 L CNN
+F 1 "Lamp" H 3728 3955 50  0000 L CNN
+F 2 "Library:GY6.35" V 3600 4100 50  0001 C CNN
+F 3 "~" V 3600 4100 50  0001 C CNN
+	1    3600 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA1
+U 1 1 6178BC1E
+P 3200 3500
+F 0 "LA1" H 3328 3546 50  0000 L CNN
+F 1 "Lamp" H 3328 3455 50  0000 L CNN
+F 2 "Library:GY6.35" V 3200 3600 50  0001 C CNN
+F 3 "~" V 3200 3600 50  0001 C CNN
+	1    3200 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA2
+U 1 1 6178BC24
+P 3600 3500
+F 0 "LA2" H 3728 3546 50  0000 L CNN
+F 1 "Lamp" H 3728 3455 50  0000 L CNN
+F 2 "Library:GY6.35" V 3600 3600 50  0001 C CNN
+F 3 "~" V 3600 3600 50  0001 C CNN
+	1    3600 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA11
+U 1 1 617AAA52
+P 5200 4600
+F 0 "LA11" H 5328 4646 50  0000 L CNN
+F 1 "Lamp" H 5328 4555 50  0000 L CNN
+F 2 "Library:GY6.35" V 5200 4700 50  0001 C CNN
+F 3 "~" V 5200 4700 50  0001 C CNN
+	1    5200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA12
+U 1 1 617AAA58
+P 5600 4600
+F 0 "LA12" H 5728 4646 50  0000 L CNN
+F 1 "Lamp" H 5728 4555 50  0000 L CNN
+F 2 "Library:GY6.35" V 5600 4700 50  0001 C CNN
+F 3 "~" V 5600 4700 50  0001 C CNN
+	1    5600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA7
+U 1 1 617AAA5E
+P 5200 4000
+F 0 "LA7" H 5328 4046 50  0000 L CNN
+F 1 "Lamp" H 5328 3955 50  0000 L CNN
+F 2 "Library:GY6.35" V 5200 4100 50  0001 C CNN
+F 3 "~" V 5200 4100 50  0001 C CNN
+	1    5200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA8
+U 1 1 617AAA64
+P 5600 4000
+F 0 "LA8" H 5728 4046 50  0000 L CNN
+F 1 "Lamp" H 5728 3955 50  0000 L CNN
+F 2 "Library:GY6.35" V 5600 4100 50  0001 C CNN
+F 3 "~" V 5600 4100 50  0001 C CNN
+	1    5600 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA3
+U 1 1 617AAA6A
+P 5200 3500
+F 0 "LA3" H 5328 3546 50  0000 L CNN
+F 1 "Lamp" H 5328 3455 50  0000 L CNN
+F 2 "Library:GY6.35" V 5200 3600 50  0001 C CNN
+F 3 "~" V 5200 3600 50  0001 C CNN
+	1    5200 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA4
+U 1 1 617AAA70
+P 5600 3500
+F 0 "LA4" H 5728 3546 50  0000 L CNN
+F 1 "Lamp" H 5728 3455 50  0000 L CNN
+F 2 "Library:GY6.35" V 5600 3600 50  0001 C CNN
+F 3 "~" V 5600 3600 50  0001 C CNN
+	1    5600 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 4850 3000 4850
+Wire Wire Line
+	3000 4850 3000 4600
+Wire Wire Line
+	3000 4600 3000 4000
+Connection ~ 3000 4600
+Connection ~ 3000 4000
+Wire Wire Line
+	3000 4000 3000 3500
+Wire Wire Line
+	3800 3500 3800 4000
+Connection ~ 3800 4000
+Wire Wire Line
+	3800 4000 3800 4600
+Wire Wire Line
+	5000 4600 5000 4000
+Connection ~ 5000 4000
+Wire Wire Line
+	5000 4000 5000 3500
+Wire Wire Line
+	5800 3500 5800 4000
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 5800 4600
+Connection ~ 3800 4600
+Connection ~ 3350 4850
+Wire Wire Line
+	3350 4850 5350 4850
+Connection ~ 5800 4600
+Wire Wire Line
+	5000 3500 3800 3500
+Connection ~ 5000 3500
+Connection ~ 3800 3500
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 617C621E
+P 5150 5000
+F 0 "J5" H 5230 5042 50  0000 L CNN
+F 1 "Conn_01x01" H 5230 4951 50  0000 L CNN
+F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 5150 5000 50  0001 C CNN
+F 3 "~" H 5150 5000 50  0001 C CNN
+	1    5150 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 617C5937
+P 6000 5000
+F 0 "J6" H 6080 5042 50  0000 L CNN
+F 1 "Conn_01x01" H 6080 4951 50  0000 L CNN
+F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 6000 5000 50  0001 C CNN
+F 3 "~" H 6000 5000 50  0001 C CNN
+	1    6000 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 5000
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 617C1D85
+P 4000 5000
+F 0 "J4" H 4080 5042 50  0000 L CNN
+F 1 "Conn_01x01" H 4080 4951 50  0000 L CNN
+F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 4000 5000 50  0001 C CNN
+F 3 "~" H 4000 5000 50  0001 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5000 5450 5000
+Wire Wire Line
+	5800 4600 5800 5000
+Wire Wire Line
+	5350 5000 5350 4850
+Wire Wire Line
+	3800 5000 3450 5000
+Wire Wire Line
+	3800 4600 3800 5000
+Wire Wire Line
+	3350 5000 3350 4850
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 617B2188
+P 5450 5200
+F 0 "J2" V 5322 5280 50  0000 L CNN
+F 1 "Conn_01x02" V 5413 5280 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 5450 5200 50  0001 C CNN
+F 3 "~" H 5450 5200 50  0001 C CNN
+	1    5450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 617AD652
+P 3450 5200
+F 0 "J1" V 3322 5280 50  0000 L CNN
+F 1 "Conn_01x02" V 3413 5280 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 3450 5200 50  0001 C CNN
+F 3 "~" H 3450 5200 50  0001 C CNN
+	1    3450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 617C82E3
+P 3150 5000
+F 0 "J3" H 3230 5042 50  0000 L CNN
+F 1 "Conn_01x01" H 3230 4951 50  0000 L CNN
+F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 3150 5000 50  0001 C CNN
+F 3 "~" H 3150 5000 50  0001 C CNN
+	1    3150 5000
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 60F511B0
+P 4000 2550
+F 0 "J1" V 3964 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 3873 2362 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 4000 2550 50  0001 C CNN
+F 3 "~" H 4000 2550 50  0001 C CNN
+	1    4000 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 60F511FE
+P 4900 2550
+F 0 "J2" V 4864 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 2362 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 4900 2550 50  0001 C CNN
+F 3 "~" H 4900 2550 50  0001 C CNN
+	1    4900 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 60F59340
+P 5800 2550
+F 0 "J3" V 5764 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 5673 2362 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 5800 2550 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3900 2750 3900 3050
+Wire Wire Line
+	4000 2750 4000 2950
+Wire Wire Line
+	4800 2750 4800 3050
+Connection ~ 4800 3050
+Wire Wire Line
+	4900 2750 4900 2950
+Connection ~ 4900 2950
+Wire Wire Line
+	5700 2750 5700 3050
+Wire Wire Line
+	5800 2750 5800 2950
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 60F645AA
+P 4350 5300
+F 0 "J10" V 4222 5112 50  0000 R CNN
+F 1 "Conn_01x02" V 4313 5112 50  0000 R CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 4350 5300 50  0001 C CNN
+F 3 "~" H 4350 5300 50  0001 C CNN
+	1    4350 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60F83F81
+P 4350 4800
+F 0 "#FLG01" H 4350 4875 50  0001 C CNN
+F 1 "PWR_FLAG" V 4350 4927 50  0000 L CNN
+F 2 "" H 4350 4800 50  0001 C CNN
+F 3 "~" H 4350 4800 50  0001 C CNN
+	1    4350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60F84DDC
+P 4450 4800
+F 0 "#FLG02" H 4450 4875 50  0001 C CNN
+F 1 "PWR_FLAG" V 4450 4928 50  0000 L CNN
+F 2 "" H 4450 4800 50  0001 C CNN
+F 3 "~" H 4450 4800 50  0001 C CNN
+	1    4450 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 4800 4350 4950
+Wire Wire Line
+	4350 4950 4350 5100
+Connection ~ 4350 4950
+$Comp
+L power:GND #PWR01
+U 1 1 60F7D668
+P 4350 4950
+F 0 "#PWR01" H 4350 4700 50  0001 C CNN
+F 1 "GND" V 4355 4822 50  0000 R CNN
+F 2 "" H 4350 4950 50  0001 C CNN
+F 3 "" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 4800 4450 4950
+Wire Wire Line
+	4450 4950 4450 5100
+Connection ~ 4450 4950
+$Comp
+L power:VCC #PWR02
+U 1 1 60F81CB2
+P 4450 4950
+F 0 "#PWR02" H 4450 4800 50  0001 C CNN
+F 1 "VCC" V 4465 5078 50  0000 L CNN
+F 2 "" H 4450 4950 50  0001 C CNN
+F 3 "" H 4450 4950 50  0001 C CNN
+	1    4450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2950 4900 2950
+Wire Wire Line
+	3900 3050 4800 3050
+Wire Wire Line
+	4900 2950 5800 2950
+Wire Wire Line
+	4800 3050 5700 3050
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 616B7BA9
+P 4000 3200
+F 0 "J4" V 3964 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 3873 3012 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 4000 3200 50  0001 C CNN
+F 3 "~" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 616B7CBF
+P 4900 3200
+F 0 "J5" V 4864 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 3012 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 4900 3200 50  0001 C CNN
+F 3 "~" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4900 3600 4900 3400
+Wire Wire Line
+	4800 3700 4800 3400
+Wire Wire Line
+	3900 3400 3900 3700
+Wire Wire Line
+	3900 3700 4800 3700
+Wire Wire Line
+	4000 3400 4000 3600
+Wire Wire Line
+	4000 3600 4900 3600
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 616BB3E4
+P 5800 3200
+F 0 "J6" V 5764 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 5673 3012 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 5800 3200 50  0001 C CNN
+F 3 "~" H 5800 3200 50  0001 C CNN
+	1    5800 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5700 3400 5700 3700
+Wire Wire Line
+	5800 3400 5800 3600
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 616BF152
+P 4000 3850
+F 0 "J7" V 3964 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 3873 3662 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 4000 3850 50  0001 C CNN
+F 3 "~" H 4000 3850 50  0001 C CNN
+	1    4000 3850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 616BF15C
+P 4900 3850
+F 0 "J8" V 4864 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 3662 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 4900 3850 50  0001 C CNN
+F 3 "~" H 4900 3850 50  0001 C CNN
+	1    4900 3850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4900 4250 4900 4050
+Wire Wire Line
+	4800 4350 4800 4050
+Wire Wire Line
+	3900 4050 3900 4350
+Wire Wire Line
+	3900 4350 4450 4350
+Wire Wire Line
+	4000 4050 4000 4250
+Wire Wire Line
+	4000 4250 4350 4250
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 616BF16C
+P 5800 3850
+F 0 "J9" V 5764 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 5673 3662 50  0000 R CNN
+F 2 "Local:BT2.0-M" H 5800 3850 50  0001 C CNN
+F 3 "~" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5700 4050 5700 4350
+Wire Wire Line
+	5800 4050 5800 4250
+Wire Wire Line
+	4900 3600 5800 3600
+Connection ~ 4900 3600
+Wire Wire Line
+	4800 3700 5700 3700
+Connection ~ 4800 3700
+Wire Wire Line
+	4900 4250 5250 4250
+Connection ~ 4900 4250
+Wire Wire Line
+	4800 4350 5350 4350
+Connection ~ 4800 4350
+Wire Wire Line
+	4350 4800 4350 4250
+Connection ~ 4350 4800
+Connection ~ 4350 4250
+Wire Wire Line
+	4350 4250 4900 4250
+Wire Wire Line
+	4450 4800 4450 4350
+Connection ~ 4450 4800
+Connection ~ 4450 4350
+Wire Wire Line
+	4450 4350 4800 4350
+Wire Wire Line
+	5250 5100 5250 4250
+Connection ~ 5250 4250
+Wire Wire Line
+	5250 4250 5800 4250
+Wire Wire Line
+	5350 5100 5350 4350
+Connection ~ 5350 4350
+Wire Wire Line
+	5350 4350 5700 4350
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 619D9511
+P 5250 5300
+F 0 "J11" V 5122 5112 50  0000 R CNN
+F 1 "Conn_01x02" V 5213 5112 50  0000 R CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 5250 5300 50  0001 C CNN
+F 3 "~" H 5250 5300 50  0001 C CNN
+	1    5250 5300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5700 3050 5900 3050
+Wire Wire Line
+	5900 3050 5900 3700
+Wire Wire Line
+	5900 3700 5700 3700
+Connection ~ 5700 3050
+Connection ~ 5700 3700
+Wire Wire Line
+	5900 3700 5900 4350
+Wire Wire Line
+	5900 4350 5700 4350
+Connection ~ 5900 3700
+Connection ~ 5700 4350
+Wire Wire Line
+	5800 2950 6000 2950
+Wire Wire Line
+	6000 2950 6000 3600
+Wire Wire Line
+	6000 3600 5800 3600
+Connection ~ 5800 2950
+Connection ~ 5800 3600
+Wire Wire Line
+	6000 3600 6000 4250
+Wire Wire Line
+	6000 4250 5800 4250
+Connection ~ 6000 3600
+Connection ~ 5800 4250
+$EndSCHEMATC

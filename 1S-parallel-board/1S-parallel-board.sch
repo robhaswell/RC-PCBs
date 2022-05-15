@@ -1,0 +1,496 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 60F4AB91
+P 2200 2550
+F 0 "J1" V 2164 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 2073 2362 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 2200 2550 50  0001 C CNN
+F 3 "~" H 2200 2550 50  0001 C CNN
+	1    2200 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 60F511B0
+P 4000 2550
+F 0 "J3" V 3964 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 3873 2362 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4000 2550 50  0001 C CNN
+F 3 "~" H 4000 2550 50  0001 C CNN
+	1    4000 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 60F511FE
+P 4900 2550
+F 0 "J4" V 4864 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 2362 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4900 2550 50  0001 C CNN
+F 3 "~" H 4900 2550 50  0001 C CNN
+	1    4900 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 60F59340
+P 5800 2550
+F 0 "J5" V 5764 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 5673 2362 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 5800 2550 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 60F593BE
+P 6700 2550
+F 0 "J6" V 6664 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 6573 2362 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 6700 2550 50  0001 C CNN
+F 3 "~" H 6700 2550 50  0001 C CNN
+	1    6700 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 60F593C8
+P 2200 3200
+F 0 "J7" V 2164 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 2073 3012 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 2200 3200 50  0001 C CNN
+F 3 "~" H 2200 3200 50  0001 C CNN
+	1    2200 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 60F593D2
+P 3100 3200
+F 0 "J8" V 3064 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 2973 3012 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3100 3200 50  0001 C CNN
+F 3 "~" H 3100 3200 50  0001 C CNN
+	1    3100 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2200 2750 2200 2950
+Wire Wire Line
+	2200 2950 3100 2950
+Wire Wire Line
+	2100 2750 2100 3050
+Wire Wire Line
+	2100 3050 3000 3050
+Wire Wire Line
+	3100 3600 3100 3400
+Wire Wire Line
+	3000 3700 3000 3400
+Wire Wire Line
+	3000 2750 3000 3050
+Connection ~ 3000 3050
+Wire Wire Line
+	3000 3050 3900 3050
+Wire Wire Line
+	3100 2750 3100 2950
+Connection ~ 3100 2950
+Wire Wire Line
+	3900 2750 3900 3050
+Connection ~ 3900 3050
+Wire Wire Line
+	4000 2750 4000 2950
+Connection ~ 4000 2950
+Wire Wire Line
+	4800 2750 4800 3050
+Connection ~ 4800 3050
+Wire Wire Line
+	4900 2750 4900 2950
+Connection ~ 4900 2950
+Wire Wire Line
+	5700 2750 5700 3050
+Connection ~ 5700 3050
+Wire Wire Line
+	5700 3050 6600 3050
+Wire Wire Line
+	5800 2750 5800 2950
+Connection ~ 5800 2950
+Wire Wire Line
+	5800 2950 6700 2950
+Wire Wire Line
+	6600 2750 6600 3050
+Wire Wire Line
+	6700 2750 6700 2950
+Wire Wire Line
+	2100 3400 2100 3700
+Wire Wire Line
+	2100 3700 3000 3700
+Wire Wire Line
+	2200 3400 2200 3600
+Wire Wire Line
+	2200 3600 3100 3600
+Wire Wire Line
+	3100 2950 4000 2950
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 60F645AA
+P 4350 5300
+F 0 "J19" V 4222 5112 50  0000 R CNN
+F 1 "Conn_01x02" V 4313 5112 50  0000 R CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 4350 5300 50  0001 C CNN
+F 3 "~" H 4350 5300 50  0001 C CNN
+	1    4350 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 60F67F30
+P 5250 5300
+F 0 "J20" V 5122 5112 50  0000 R CNN
+F 1 "Conn_01x02" V 5213 5112 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 5250 5300 50  0001 C CNN
+F 3 "~" H 5250 5300 50  0001 C CNN
+	1    5250 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60F83F81
+P 4350 4800
+F 0 "#FLG0101" H 4350 4875 50  0001 C CNN
+F 1 "PWR_FLAG" V 4350 4927 50  0000 L CNN
+F 2 "" H 4350 4800 50  0001 C CNN
+F 3 "~" H 4350 4800 50  0001 C CNN
+	1    4350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60F84DDC
+P 4450 4800
+F 0 "#FLG0102" H 4450 4875 50  0001 C CNN
+F 1 "PWR_FLAG" V 4450 4928 50  0000 L CNN
+F 2 "" H 4450 4800 50  0001 C CNN
+F 3 "~" H 4450 4800 50  0001 C CNN
+	1    4450 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 4800 4350 4950
+Wire Wire Line
+	4350 4950 4350 5100
+Connection ~ 4350 4950
+$Comp
+L power:GND #PWR01
+U 1 1 60F7D668
+P 4350 4950
+F 0 "#PWR01" H 4350 4700 50  0001 C CNN
+F 1 "GND" V 4355 4822 50  0000 R CNN
+F 2 "" H 4350 4950 50  0001 C CNN
+F 3 "" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 4800 4450 4950
+Wire Wire Line
+	4450 4950 4450 5100
+Connection ~ 4450 4950
+$Comp
+L power:VCC #PWR02
+U 1 1 60F81CB2
+P 4450 4950
+F 0 "#PWR02" H 4450 4800 50  0001 C CNN
+F 1 "VCC" V 4465 5078 50  0000 L CNN
+F 2 "" H 4450 4950 50  0001 C CNN
+F 3 "" H 4450 4950 50  0001 C CNN
+	1    4450 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 60F4DEBA
+P 3100 2550
+F 0 "J2" V 3064 2362 50  0000 R CNN
+F 1 "Conn_01x02" V 2973 2362 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3100 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4000 2950 4900 2950
+Wire Wire Line
+	3900 3050 4800 3050
+Wire Wire Line
+	4900 2950 5800 2950
+Wire Wire Line
+	4800 3050 5700 3050
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 616B7BA9
+P 4000 3200
+F 0 "J9" V 3964 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 3873 3012 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4000 3200 50  0001 C CNN
+F 3 "~" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 616B7CBF
+P 4900 3200
+F 0 "J10" V 4864 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 3012 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4900 3200 50  0001 C CNN
+F 3 "~" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4900 3600 4900 3400
+Wire Wire Line
+	4800 3700 4800 3400
+Wire Wire Line
+	3900 3400 3900 3700
+Wire Wire Line
+	3900 3700 4800 3700
+Wire Wire Line
+	4000 3400 4000 3600
+Wire Wire Line
+	4000 3600 4900 3600
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 616BB3E4
+P 5800 3200
+F 0 "J11" V 5764 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 5673 3012 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 5800 3200 50  0001 C CNN
+F 3 "~" H 5800 3200 50  0001 C CNN
+	1    5800 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 616BB522
+P 6700 3200
+F 0 "J12" V 6664 3012 50  0000 R CNN
+F 1 "Conn_01x02" V 6573 3012 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 6700 3200 50  0001 C CNN
+F 3 "~" H 6700 3200 50  0001 C CNN
+	1    6700 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6700 3600 6700 3400
+Wire Wire Line
+	6600 3700 6600 3400
+Wire Wire Line
+	5700 3400 5700 3700
+Wire Wire Line
+	5700 3700 6600 3700
+Wire Wire Line
+	5800 3400 5800 3600
+Wire Wire Line
+	5800 3600 6700 3600
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 616BEFDC
+P 2200 3850
+F 0 "J13" V 2164 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 2073 3662 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 2200 3850 50  0001 C CNN
+F 3 "~" H 2200 3850 50  0001 C CNN
+	1    2200 3850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 616BF142
+P 3100 3850
+F 0 "J14" V 3064 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 2973 3662 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3100 3850 50  0001 C CNN
+F 3 "~" H 3100 3850 50  0001 C CNN
+	1    3100 3850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3100 4250 3100 4050
+Wire Wire Line
+	3000 4350 3000 4050
+Wire Wire Line
+	2100 4050 2100 4350
+Wire Wire Line
+	2100 4350 3000 4350
+Wire Wire Line
+	2200 4050 2200 4250
+Wire Wire Line
+	2200 4250 3100 4250
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 616BF152
+P 4000 3850
+F 0 "J15" V 3964 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 3873 3662 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4000 3850 50  0001 C CNN
+F 3 "~" H 4000 3850 50  0001 C CNN
+	1    4000 3850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 616BF15C
+P 4900 3850
+F 0 "J16" V 4864 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 4773 3662 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4900 3850 50  0001 C CNN
+F 3 "~" H 4900 3850 50  0001 C CNN
+	1    4900 3850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4900 4250 4900 4050
+Wire Wire Line
+	4800 4350 4800 4050
+Wire Wire Line
+	3900 4050 3900 4350
+Wire Wire Line
+	3900 4350 4450 4350
+Wire Wire Line
+	4000 4050 4000 4250
+Wire Wire Line
+	4000 4250 4350 4250
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 616BF16C
+P 5800 3850
+F 0 "J17" V 5764 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 5673 3662 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 5800 3850 50  0001 C CNN
+F 3 "~" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 616BF176
+P 6700 3850
+F 0 "J18" V 6664 3662 50  0000 R CNN
+F 1 "Conn_01x02" V 6573 3662 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 6700 3850 50  0001 C CNN
+F 3 "~" H 6700 3850 50  0001 C CNN
+	1    6700 3850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6700 4250 6700 4050
+Wire Wire Line
+	6600 4350 6600 4050
+Wire Wire Line
+	5700 4050 5700 4350
+Wire Wire Line
+	5700 4350 6600 4350
+Wire Wire Line
+	5800 4050 5800 4250
+Wire Wire Line
+	5800 4250 6700 4250
+Wire Wire Line
+	3100 3600 4000 3600
+Connection ~ 3100 3600
+Connection ~ 4000 3600
+Wire Wire Line
+	4900 3600 5800 3600
+Connection ~ 4900 3600
+Connection ~ 5800 3600
+Wire Wire Line
+	3000 3700 3900 3700
+Connection ~ 3000 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	4800 3700 5700 3700
+Connection ~ 4800 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	3100 4250 4000 4250
+Connection ~ 3100 4250
+Connection ~ 4000 4250
+Wire Wire Line
+	4900 4250 5250 4250
+Connection ~ 4900 4250
+Connection ~ 5800 4250
+Wire Wire Line
+	3000 4350 3900 4350
+Connection ~ 3000 4350
+Connection ~ 3900 4350
+Wire Wire Line
+	4800 4350 5350 4350
+Connection ~ 4800 4350
+Connection ~ 5700 4350
+Wire Wire Line
+	4350 4800 4350 4250
+Connection ~ 4350 4800
+Connection ~ 4350 4250
+Wire Wire Line
+	4350 4250 4900 4250
+Wire Wire Line
+	4450 4800 4450 4350
+Connection ~ 4450 4800
+Connection ~ 4450 4350
+Wire Wire Line
+	4450 4350 4800 4350
+Wire Wire Line
+	6600 3050 6800 3050
+Wire Wire Line
+	6800 3050 6800 3700
+Wire Wire Line
+	6800 3700 6600 3700
+Connection ~ 6600 3050
+Connection ~ 6600 3700
+Wire Wire Line
+	6700 2950 6900 2950
+Wire Wire Line
+	6900 2950 6900 3600
+Wire Wire Line
+	6900 3600 6700 3600
+Connection ~ 6700 2950
+Connection ~ 6700 3600
+Wire Wire Line
+	6800 3700 6800 4350
+Wire Wire Line
+	6800 4350 6600 4350
+Connection ~ 6800 3700
+Connection ~ 6600 4350
+Wire Wire Line
+	6900 3600 6900 4250
+Wire Wire Line
+	6900 4250 6700 4250
+Connection ~ 6900 3600
+Connection ~ 6700 4250
+Wire Wire Line
+	5250 5100 5250 4250
+Connection ~ 5250 4250
+Wire Wire Line
+	5250 4250 5800 4250
+Wire Wire Line
+	5350 5100 5350 4350
+Connection ~ 5350 4350
+Wire Wire Line
+	5350 4350 5700 4350
+$EndSCHEMATC

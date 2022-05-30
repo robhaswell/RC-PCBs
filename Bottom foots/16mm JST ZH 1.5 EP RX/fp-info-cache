@@ -1,4 +1,4 @@
-19100412522360002
+19098761239613792
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56216,20 +56216,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical
-JST ZH series connector, B3B-ZR (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator
-connector JST ZH vertical
-0
-3
-3
-Library
-SolderWirePad_1x01_SMD_2x4mm
-Wire Pad, Square, SMD Pad,  5mm x 10mm,
-MesurementPoint Square SMDPad 5mmx10mm 
-0
-1
-1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -73499,6 +73485,13 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+RC-PCBs
+Happymodel_EP
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

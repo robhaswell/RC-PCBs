@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2022-05-15T15:17:23+01:00"
+    "CreationDate":  "2022-05-30T22:22:16+01:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "Halogen discharger",
-      "GUID": "48616c6f-6765-46e2-9064-697363686172",
+      "Name": "5-servos",
+      "GUID": "352d7365-7276-46f7-932e-6b696361645f",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 63.550,
-      "Y": 54.660
+      "X": 24.070,
+      "Y": 34.167
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -29,58 +29,58 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.600,
-      "PadToTrack":  0.600,
-      "TrackToTrack":  0.600,
-      "MinLineWidth":  1.000,
-      "TrackToRegion":  0.600,
-      "RegionToRegion":  0.600
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.600,
+      "TrackToRegion":  0.508,
+      "RegionToRegion":  0.508
     }
   ],
   "FilesAttributes":
   [
     {
-      "Path":  "Halogen discharger-F_Cu.gbr",
+      "Path":  "5-servos-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Halogen discharger-B_Cu.gbr",
+      "Path":  "5-servos-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Halogen discharger-F_Paste.gbr",
+      "Path":  "5-servos-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Halogen discharger-B_Paste.gbr",
+      "Path":  "5-servos-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Halogen discharger-F_SilkS.gbr",
+      "Path":  "5-servos-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Halogen discharger-B_SilkS.gbr",
+      "Path":  "5-servos-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Halogen discharger-F_Mask.gbr",
+      "Path":  "5-servos-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Halogen discharger-B_Mask.gbr",
+      "Path":  "5-servos-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Halogen discharger-Edge_Cuts.gbr",
+      "Path":  "5-servos-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

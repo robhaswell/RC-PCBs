@@ -146,8 +146,6 @@ F 3 "~" V 5600 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3350 4850 3000 4850
-Wire Wire Line
 	3000 4850 3000 4600
 Wire Wire Line
 	3000 4600 3000 4000
@@ -170,93 +168,25 @@ Wire Wire Line
 Connection ~ 5800 4000
 Wire Wire Line
 	5800 4000 5800 4600
-Connection ~ 3800 4600
-Connection ~ 3350 4850
-Wire Wire Line
-	3350 4850 5350 4850
 Connection ~ 5800 4600
 Wire Wire Line
 	5000 3500 3800 3500
 Connection ~ 5000 3500
 Connection ~ 3800 3500
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 617C621E
-P 5150 5000
-F 0 "J5" H 5230 5042 50  0000 L CNN
-F 1 "Conn_01x01" H 5230 4951 50  0000 L CNN
-F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 5150 5000 50  0001 C CNN
-F 3 "~" H 5150 5000 50  0001 C CNN
-	1    5150 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 617C5937
-P 6000 5000
-F 0 "J6" H 6080 5042 50  0000 L CNN
-F 1 "Conn_01x01" H 6080 4951 50  0000 L CNN
-F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 6000 5000 50  0001 C CNN
-F 3 "~" H 6000 5000 50  0001 C CNN
-	1    6000 5000
-	1    0    0    -1  
-$EndComp
-Connection ~ 3800 5000
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 617C1D85
-P 4000 5000
-F 0 "J4" H 4080 5042 50  0000 L CNN
-F 1 "Conn_01x01" H 4080 4951 50  0000 L CNN
-F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 4000 5000 50  0001 C CNN
-F 3 "~" H 4000 5000 50  0001 C CNN
-	1    4000 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5800 5000 5450 5000
+	5800 4600 5800 4850
 Wire Wire Line
-	5800 4600 5800 5000
-Wire Wire Line
-	5350 5000 5350 4850
-Wire Wire Line
-	3800 5000 3450 5000
-Wire Wire Line
-	3800 4600 3800 5000
-Wire Wire Line
-	3350 5000 3350 4850
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 617B2188
-P 5450 5200
-F 0 "J2" V 5322 5280 50  0000 L CNN
-F 1 "Conn_01x02" V 5413 5280 50  0000 L CNN
-F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 5450 5200 50  0001 C CNN
-F 3 "~" H 5450 5200 50  0001 C CNN
-	1    5450 5200
-	0    1    1    0   
-$EndComp
+	4300 5000 4300 4850
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 617AD652
-P 3450 5200
-F 0 "J1" V 3322 5280 50  0000 L CNN
-F 1 "Conn_01x02" V 3413 5280 50  0000 L CNN
-F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 3450 5200 50  0001 C CNN
-F 3 "~" H 3450 5200 50  0001 C CNN
-	1    3450 5200
+P 4400 5200
+F 0 "J1" V 4272 5280 50  0000 L CNN
+F 1 "Conn_01x02" V 4363 5280 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 4400 5200 50  0001 C CNN
+F 3 "~" H 4400 5200 50  0001 C CNN
+	1    4400 5200
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 617C82E3
-P 3150 5000
-F 0 "J3" H 3230 5042 50  0000 L CNN
-F 1 "Conn_01x01" H 3230 4951 50  0000 L CNN
-F 2 "Library:SolderWirePad_1x01_SMD_2x4mm" H 3150 5000 50  0001 C CNN
-F 3 "~" H 3150 5000 50  0001 C CNN
-	1    3150 5000
-	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -302,4 +232,130 @@ F 3 "~" H 6500 4100 50  0001 C CNN
 	1    6500 4100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4400 5000 4400 4850
+$Comp
+L power:GND #PWR0101
+U 1 1 6281FC2F
+P 4500 4850
+F 0 "#PWR0101" H 4500 4600 50  0001 C CNN
+F 1 "GND" H 4505 4677 50  0000 C CNN
+F 2 "" H 4500 4850 50  0001 C CNN
+F 3 "" H 4500 4850 50  0001 C CNN
+	1    4500 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 4850 4500 4850
+Connection ~ 4500 4850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6281C0BF
+P 4300 5000
+F 0 "#FLG0101" H 4300 5075 50  0001 C CNN
+F 1 "PWR_FLAG" V 4300 5127 50  0000 L CNN
+F 2 "" H 4300 5000 50  0001 C CNN
+F 3 "~" H 4300 5000 50  0001 C CNN
+	1    4300 5000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4300 5000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 628251A2
+P 4400 5000
+F 0 "#FLG0102" H 4400 5075 50  0001 C CNN
+F 1 "PWR_FLAG" V 4400 5128 50  0000 L CNN
+F 2 "" H 4400 5000 50  0001 C CNN
+F 3 "~" H 4400 5000 50  0001 C CNN
+	1    4400 5000
+	0    1    1    0   
+$EndComp
+Connection ~ 4400 5000
+Wire Wire Line
+	4500 4850 5800 4850
+$Comp
+L power:VCC #PWR0102
+U 1 1 62821DDB
+P 4200 4850
+F 0 "#PWR0102" H 4200 4700 50  0001 C CNN
+F 1 "VCC" H 4215 5023 50  0000 C CNN
+F 2 "" H 4200 4850 50  0001 C CNN
+F 3 "" H 4200 4850 50  0001 C CNN
+	1    4200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4850 4200 4850
+Wire Wire Line
+	4200 4850 4300 4850
+Connection ~ 4200 4850
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 62832ABF
+P 2650 4850
+F 0 "J2" H 2568 4625 50  0000 C CNN
+F 1 "Conn_01x01" H 2568 4716 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 2650 4850 50  0001 C CNN
+F 3 "~" H 2650 4850 50  0001 C CNN
+	1    2650 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 628341BC
+P 3000 5050
+F 0 "J4" V 2872 5130 50  0000 L CNN
+F 1 "Conn_01x01" V 2963 5130 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 3000 5050 50  0001 C CNN
+F 3 "~" H 3000 5050 50  0001 C CNN
+	1    3000 5050
+	0    1    1    0   
+$EndComp
+Connection ~ 3000 4850
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 62834C54
+P 5800 5050
+F 0 "J5" V 5672 5130 50  0000 L CNN
+F 1 "Conn_01x01" V 5763 5130 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5800 5050 50  0001 C CNN
+F 3 "~" H 5800 5050 50  0001 C CNN
+	1    5800 5050
+	0    1    1    0   
+$EndComp
+Connection ~ 5800 4850
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 628354CC
+P 6150 4850
+F 0 "J3" H 6230 4892 50  0000 L CNN
+F 1 "Conn_01x01" H 6230 4801 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 6150 4850 50  0001 C CNN
+F 3 "~" H 6150 4850 50  0001 C CNN
+	1    6150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4900 3000 4900
+Wire Wire Line
+	3000 4900 3000 4850
+Wire Wire Line
+	2850 4850 3000 4850
+Wire Wire Line
+	5800 4850 5950 4850
+Wire Wire Line
+	3400 3500 3400 4000
+Connection ~ 3400 3500
+Connection ~ 3400 4600
+Connection ~ 3400 4000
+Wire Wire Line
+	3400 4000 3400 4600
+Wire Wire Line
+	5400 3500 5400 4000
+Connection ~ 5400 3500
+Connection ~ 5400 4600
+Connection ~ 5400 4000
+Wire Wire Line
+	5400 4000 5400 4600
 $EndSCHEMATC

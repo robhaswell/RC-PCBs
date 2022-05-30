@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2022-05-30T22:22:16+01:00"
+    "CreationDate":  "2022-05-31T00:34:39+01:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "5-servos",
-      "GUID": "352d7365-7276-46f7-932e-6b696361645f",
+      "Name": "board",
+      "GUID": "626f6172-642e-46b6-9963-61645f706362",
       "Revision": "rev?"
     },
     "Size":
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "5-servos-F_Cu.gbr",
+      "Path":  "board-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "5-servos-B_Cu.gbr",
+      "Path":  "board-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "5-servos-F_Paste.gbr",
+      "Path":  "board-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "5-servos-B_Paste.gbr",
+      "Path":  "board-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "5-servos-F_SilkS.gbr",
+      "Path":  "board-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "5-servos-B_SilkS.gbr",
+      "Path":  "board-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "5-servos-F_Mask.gbr",
+      "Path":  "board-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "5-servos-B_Mask.gbr",
+      "Path":  "board-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "5-servos-Edge_Cuts.gbr",
+      "Path":  "board-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

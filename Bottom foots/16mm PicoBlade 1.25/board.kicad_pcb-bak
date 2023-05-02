@@ -372,7 +372,7 @@
       (net 6 "Net-(J1-Pad4)"))
     (pad 2 thru_hole oval (at 1.5 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask)
       (net 3 +BATT))
-    (pad 1 thru_hole roundrect (at 0 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask) (roundrect_rratio 0.242718)
+    (pad 1 thru_hole roundrect (at 0 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask) (roundrect_rratio 0.2427174757281553)
       (net 2 GND))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -435,7 +435,7 @@
       (net 5 "Net-(J1-Pad5)"))
     (pad 2 thru_hole oval (at 1.5 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask)
       (net 3 +BATT))
-    (pad 1 thru_hole roundrect (at 0 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask) (roundrect_rratio 0.242718)
+    (pad 1 thru_hole roundrect (at 0 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask) (roundrect_rratio 0.2427174757281553)
       (net 2 GND))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -498,7 +498,7 @@
       (net 4 "Net-(J1-Pad6)"))
     (pad 2 thru_hole oval (at 1.5 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask)
       (net 3 +BATT))
-    (pad 1 thru_hole roundrect (at 0 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask) (roundrect_rratio 0.242718)
+    (pad 1 thru_hole roundrect (at 0 0 90) (size 1.03 1.73) (drill 0.73) (layers *.Cu *.Mask) (roundrect_rratio 0.2427174757281553)
       (net 2 GND))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical.wrl
       (at (xyz 0 0 0))
